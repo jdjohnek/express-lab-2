@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leave a Review</title>
+</head>
+<body>
+    <h1>Leave a Review</h1>
+
+    <form method="post" action="/review">
+        <label>Your Name <input type="text"></label>
+        <label>Comment <input type="text"></label>
+
+        <input type="radio" id="rating-5" name="rating" value="5" />
+      <label for="rating-5">5 (best)</label>
+      <input type="radio" id="rating-4" name="rating" value="4"  />
+      <label for="rating-4">4</label>
+      <input type="radio" id="rating-3" name="rating" value="3" />
+      <label for="rating-3">3</label>
+      <input type="radio" id="rating-2" name="rating" value="2" />
+      <label for="rating-2">2</label>
+      <input type="radio" id="rating-1" name="rating" value="1" />
+      <label for="rating-1">1 (worst)</label>
+
+      <button>Submit</button>
+      <a href="/">Never Mind</a>
+    </form>
+    
+</body>
+</html>
